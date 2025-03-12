@@ -1,0 +1,36 @@
+.usercard {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .usercard__image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .usercard__details {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .usercard__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .usercard__email, .usercard__phone, .usercard__address {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
